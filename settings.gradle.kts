@@ -1,5 +1,9 @@
 dependencyResolutionManagement {
-    repositories.mavenCentral()
+    repositories {
+        mavenCentral()
+    }
 }
+
+include("plugin")
 
 rootProject.name = "lipstick"
