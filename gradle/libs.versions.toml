@@ -1,0 +1,11 @@
+[versions]
+spotless = "7.0.2"
+classgraph = "4.8.179"
+kotlinpoet = "2.1.0"
+
+[libraries]
+classgraph = { module = "io.github.classgraph:classgraph", version.ref = "classgraph" }
+kotlinpoet = { module = "com.squareup:kotlinpoet", version.ref = "kotlinpoet" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
